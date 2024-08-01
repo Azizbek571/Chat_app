@@ -123,7 +123,7 @@ class _MenuChatState extends State<MenuChat> {
                                               ),
                                             ),
                                           )
-                                        : Text("data")
+                                        : Text("")
                                   ],
                                 ),
                               ),
