@@ -96,3 +96,55 @@ List<Message> chats = [
 
 
 ];
+
+
+
+List<Message> messages = [
+
+
+  Message(
+    sender: pepe,
+    time: '7:00 PM',
+    text: 'How are you, my friend is coming?',
+    isLiked: true,
+    unread: true,     
+  ),
+  Message(
+    sender: currentUser,
+    time: '7:09 PM',
+    text: 'How are you, let me help you?',
+    isLiked: false,
+    unread: true,     
+  ),
+  Message(
+    sender: currentUser,
+    time: '7:00 PM',
+    text: 'How are you, what are you doing?',
+    isLiked: false,
+    unread: false,     
+  ),
+  Message(
+    sender: currentUser,
+    time: '7:00 PM',
+    text: 'Hoji is learing Eglish, I love him?',
+    isLiked: true,
+    unread: false,     
+  ),
+  Message(
+    sender: johan,
+    time: '7:00 PM',
+    text: 'How are you??',
+    isLiked: true,
+    unread: true,     
+  ),
+  Message(
+    sender: currentUser,
+    time: '7:00 PM',
+    text: 'Can you help me please',
+    isLiked: true,
+    unread: false,     
+  ),
+
+
+];
+

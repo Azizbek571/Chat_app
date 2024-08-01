@@ -95,29 +95,29 @@ class _MenuChatState extends State<MenuChat> {
                                 padding:
                                     const EdgeInsets.only(top: 30, left: 10),
                                 child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     Text(
                                       chat.time,
                                       style: TextStyle(
                                           fontSize: 16,
                                           fontWeight: FontWeight.w800,
-                                          color: Colors.white),
+                                          color: Colors.white24),
                                     ),
                                     const SizedBox(height: 8),
                                     chat.unread
                                         ? Container(
-                                            height: 30,
-                                            width: 60,
+                                            height: 25,
+                                            width: 45,
                                             decoration: BoxDecoration(
                                                 color: Colors.red,
                                                 borderRadius:
                                                     BorderRadius.circular(10)),
                                             child: Center(
                                               child: Text(
-                                                "New",
+                                                "new",
                                                 style: TextStyle(
-                                                    fontSize: 16.0,
+                                                    fontSize: 15.0,
                                                     fontWeight: FontWeight.w600,
                                                     color: Colors.white),
                                               ),
